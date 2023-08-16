@@ -1,0 +1,30 @@
+.dataEnviadaContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.dataEnviadaContainer h2{
+  color: rgb(6, 3, 114);
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.dataEnviadaContainer P{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(1, 197, 197);
+  color: rgb(6, 3, 114);
+  padding: 5px;
+  margin: 2px;
+  width: 100%;
+  border: 1px solid rgb(6, 3, 114);
+}
+.button{
+  padding: .65rem;
+  margin-top: .5rem;
+  background-color: rgb(6, 3, 114);
+  border: 1px solid rgb(1, 197, 197);
+  border-radius: 10%;
+  color: rgb(1, 197, 197);
+}

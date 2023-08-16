@@ -14,18 +14,6 @@
   color: rgb(6, 3, 114);
   text-decoration: underline;
 }
-
-.lista{
-  list-style: none;
-}
-.button{
-  padding: .65rem;
-  margin-top: .5rem;
-  background-color: rgb(6, 3, 114);
-  border: 1px solid rgb(1, 197, 197);
-  border-radius: 10%;
-  color: rgb(1, 197, 197);
-}
 .inputsContainer{
   display: flex;
   flex-direction: column;
@@ -38,16 +26,15 @@
   text-align: center;
   margin: .3rem 0;
   border-radius: 4px;
+  background-color: rgb(1, 197, 197);
+  color: rgb(6, 3, 114);
 }
 
-.dataEnviadaContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-.dataEnviadaContainer h2{
-  color: rgb(6, 3, 114);
-  text-decoration: underline;
+.button{
+  padding: .65rem;
+  margin-top: .5rem;
+  background-color: rgb(6, 3, 114) !important;
+  color: rgb(1, 197, 197) !important;
+  border: 1px solid rgb(1, 197, 197);
+  border-radius: 10%;
 }
