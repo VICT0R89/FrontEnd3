@@ -1,4 +1,4 @@
-import {FormData} from "./Form"; // Corregir la importación aquí
+import {FormData} from "./Form"; 
 import '../styles/AppParcial.css';
 
 export const AppParcial = () => {

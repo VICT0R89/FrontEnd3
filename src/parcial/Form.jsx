@@ -18,7 +18,7 @@ export const FormData = ({ titulo = "Datos" }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (nombre.length < 3 || /^\s/.test(nombre) || libro.length < 6) {
+    if (nombre.trim().length < 3 || /^\s/.test(nombre) || libro.length < 6) {
       setAux2(true);
       setAux(false)
     } else {

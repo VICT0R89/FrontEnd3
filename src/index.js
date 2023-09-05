@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {Gift} from './components/postParcial/Gift';
+import App from './components/postParcial/clase14/App'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-    <Gift />
+    <App />
   </>
 );
 
